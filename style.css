@@ -1,0 +1,108 @@
+/* Réinitialisation des styles CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+section.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section.hero a:hover {
+    background-color: #ff3333;
+}
+
+section.featured-games {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.game {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.game h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.game p {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles spécifiques pour les liens de la barre de navigation */
+nav a:hover {
+    color: #ff3333;
+}
